@@ -1,0 +1,360 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@400;500;600;700&display=swap");
+
+/* Reset code */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Playfair Display", serif;
+}
+
+.container {
+  /* width: 1440px; */
+  padding: 0 4rem;
+}
+
+h1 {
+  font-size: 90px;
+  color: #094b72;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+/* hearder container  */
+.header-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+}
+
+nav a {
+  color: #333;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  transition: 0.3s ease-in-out all;
+  border-radius: 5px;
+}
+
+nav a:hover {
+  color: #f9f8f9;
+  background-color: #333;
+}
+
+.search-icon {
+  cursor: pointer;
+}
+/* hero section */
+
+.hero-section {
+  background-color: #f9f8f9;
+}
+
+.hero-section .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.hero-text .hero-para {
+  color: #4f4f4f;
+  font-size: 24px;
+  margin-top: 2rem;
+}
+
+.hero-text a {
+  display: inline-block;
+  font-weight: 500;
+  padding: 1rem;
+  color: white;
+  background-color: #094b72;
+  margin: 2rem;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out all;
+}
+
+.hero-text a:hover {
+  transform: scale(0.97);
+}
+
+.hero-text .companies-para {
+  color: #8b8c8c;
+  font-size: 22px;
+  margin: 1rem 0;
+}
+
+.hero-text .companies-logo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-content: center;
+  row-gap: 2rem;
+  margin-block: 2rem;
+  width: 80%;
+}
+
+/* feature section  */
+.feature-section {
+  background-color: #f2fcff;
+}
+
+.feature-section .container {
+  display: flex;
+  padding: 5rem;
+}
+
+.feature-section .left-banner {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+
+.feature-section .left-banner h2 {
+  color: #2d2f30;
+  font-weight: 700;
+}
+
+.feature-section .left-banner p {
+  color: #8b8c8c;
+  font-size: 20px;
+  line-height: 36px;
+  margin-top: 2rem;
+}
+
+.feature-section .right-features {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 55%;
+  gap: 3rem;
+}
+
+.right-features .feature {
+  background-color: white;
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.right-features .feature h4 {
+  color: #094b72;
+}
+.right-features .feature p {
+  color: #8b8c8c;
+  font-size: 16px;
+}
+
+/* achivement section */
+
+.achivement-section {
+  background-image: url(image/BG.png);
+}
+
+.achivement-section .container {
+  padding: 3rem;
+  text-align: center;
+}
+
+.achivement-section h2 {
+  color: whitesmoke;
+}
+
+.achivement-section p {
+  color: whitesmoke;
+  letter-spacing: 1px;
+  font-size: 18px;
+  margin-block: 1rem;
+}
+
+.achivement-section .center {
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table,
+tr,
+th,
+td {
+  text-align: center;
+  padding: 0 2rem;
+  border-right: 1px solid #ddd;
+  border-collapse: collapse;
+}
+
+th {
+  font-size: 48px;
+}
+
+/* testimonial section */
+
+.testimonial-section {
+  background-color: #f4fbff;
+}
+
+.testimonial-section .container {
+  padding: 2rem 6rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 5rem;
+}
+
+.testimonial-section h2 {
+  color: #2d2f30;
+  text-align: center;
+  padding-top: 4rem;
+}
+
+.testimonial-section h4 {
+  font-family: "poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #151617;
+}
+
+.testimonial-section p {
+  font-size: 14px;
+  color: #4f4f4f;
+}
+
+.testimonial-section .testimonial {
+  padding: 2rem;
+}
+
+.testimonial .testimonial-text {
+  background-color: #cfcfd212;
+  padding: 1.5rem;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1rem;
+}
+
+.testimonial .clients-ditails {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+/* cta section */
+
+.cta-section {
+  background-color: white;
+}
+
+.cta-section .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  padding-left: 6rem;
+}
+
+.cta-section .cta-text h2 {
+  color: #2d2f30;
+  margin-bottom: 3rem;
+}
+
+.cta-section .cta-text p {
+  color: #4f4f4f;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+}
+
+.cta-text a {
+  display: block;
+  background-color: #0f6e8c;
+  color: whitesmoke;
+  padding: 1rem 2rem;
+  margin-top: 3rem;
+  width: 180px;
+  border-radius: 8px;
+  transition: 0.3s ease-in-out all;
+}
+
+.cta-text a:hover {
+  transform: scale(0.9);
+}
+
+.cta-text a i {
+  margin-right: 0.5rem;
+}
+
+footer {
+  background-color: #0f6e8c;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 8rem;
+  color: #f4f5f7;
+}
+
+footer .footer-nav-link {
+  display: flex;
+  justify-content: space-between;
+  gap: 8rem;
+}
+
+footer .footer-nav-link h4 {
+  font-size: 20px;
+  margin-bottom: 2rem;
+}
+
+footer .footer-nav-link a {
+  color: #f4f5f7;
+  font-size: 16px;
+  line-height: 32px;
+  transition: 0.2s ease-in-out all;
+}
+
+footer .footer-nav-link a:hover {
+  background-color: #f4f5f7;
+  color: #2d2f30;
+  padding: 0.3rem 0.5rem;
+  border-radius: 8px;
+}
+
+/* sub footer section */
+
+.sub-footer {
+  background-color: #05546d;
+}
+
+.sub-footer .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+  color: whitesmoke;
+}
+
+.sub-footer .container i.fa-brands {
+  font-size: 2rem;
+  color: whitesmoke;
+  margin-right: 2rem;
+}
+
+/* media quaries */
+/* sorry sir i am tired. ar code likhte parlam na. mark diye diyen. */
