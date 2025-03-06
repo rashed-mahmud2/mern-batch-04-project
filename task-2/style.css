@@ -32,7 +32,7 @@ h2 {
   font-size: 48px;
 }
 
-/* hearder container  */
+/* header container  */
 .header-container {
   display: flex;
   justify-content: space-around;
@@ -357,4 +357,109 @@ footer .footer-nav-link a:hover {
 }
 
 /* media quaries */
-/* sorry sir i am tired. ar code likhte parlam na. mark diye diyen. */
+
+/* for mobile device */
+@media screen and (max-width: 480px) {
+  .container {
+    padding: 2rem;
+  }
+  /* header section */
+  .header-container {
+    justify-content: space-between;
+    padding: 1rem;
+  }
+  nav {
+    display: none;
+  }
+
+  /* hero section */
+  .hero-section .container {
+    flex-direction: column;
+  }
+  h1 {
+    font-size: 2.2rem;
+  }
+
+  .hero-para {
+    font-size: 16px;
+  }
+
+  .companies-para {
+    font-size: 15px;
+  }
+
+  /* feature section */
+  .feature-section .container {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+  }
+
+  .feature-section .left-banner {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .feature-section h2 br,
+  .feature-section p br {
+    display: none;
+  }
+
+  .feature-section .right-features {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
+
+  /* achivement section */
+  .achivement-section .container {
+    padding: 2rem;
+  }
+  .achivement-section th {
+    font-size: 1.8rem;
+  }
+
+  /* testimonial section  */
+
+  .testimonial-section .container {
+    padding: 2rem;
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  /* cta section */
+
+  .cta-section .container {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .cta-section p br {
+    display: none;
+  }
+
+  /* footer section */
+
+  footer .container {
+    flex-direction: column;
+  }
+
+  footer .footer-nav-link {
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+
+  /* sub footer */
+  .sub-footer .container {
+    flex-direction: column;
+    gap: 1.4rem;
+  }
+  .sub-footer .container i.fa-brands {
+    font-size: 1.2rem;
+    color: whitesmoke;
+    margin-right: 1.4rem;
+  }
+}
