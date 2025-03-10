@@ -1,0 +1,213 @@
+@media screen and (max-width: 1281px) {
+  .container {
+    padding: 5rem 4rem;
+  }
+
+  .cta-section .cta-login-form {
+    flex-basis: 30%;
+  }
+}
+
+@media screen and (max-width: 1025px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.6rem;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+  }
+
+  p,
+  a {
+    word-spacing: normal;
+    letter-spacing: normal;
+  }
+
+  /* feature section */
+
+  .feature-section .feature i {
+    font-size: 4rem;
+  }
+  /* cta section */
+  .cta-section .cta-text {
+    flex-basis: 55%;
+  }
+
+  .cta-section .cta-login-form {
+    flex-basis: 35%;
+  }
+
+  .cta-login-form input {
+    margin-bottom: 1rem;
+  }
+  .cta-login-form h3 {
+    font-size: 1.1rem;
+  }
+
+  .cta-section .cta-text .time {
+    padding: 0.5rem 1.8rem;
+  }
+
+  /* course section */
+  .courses-section .courses .courses-card {
+    width: 47%;
+  }
+
+  /* community section */
+  .community-section .community {
+    flex-flow: wrap;
+    gap: 3rem;
+    justify-content: space-around;
+  }
+  .community-section .community-card {
+    width: 40%;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media screen and (max-width: 789px) {
+  /* header section */
+  nav ul {
+    display: none;
+  }
+  nav .toggle {
+    display: block;
+  }
+
+  .hero-section br {
+    display: none;
+  }
+
+  /* feature section */
+  .feature-section .features {
+    flex-flow: wrap;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .feature-section .feature {
+    width: 90%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  /* cta section */
+  .cta-section .container {
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  .cta-section .cta-text .times {
+    justify-content: center;
+  }
+
+  .cta-section .cta-login-form {
+    width: 60%;
+  }
+
+  .community-section .community-card {
+    width: 45%;
+  }
+
+  /* communication section */
+  .communication-section .container {
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+    padding: 3rem 4rem;
+  }
+
+  .communication-section .communication-text {
+    flex-basis: 100%;
+    text-align: center;
+  }
+
+  .communication-section .communication-form {
+    flex-basis: 100%;
+  }
+  /* footer section */
+  .footer-section .footer-links-container {
+    flex-flow: wrap;
+    gap: 4rem;
+  }
+
+  .footer-links-container .footer-link {
+    flex-basis: 45%;
+    gap: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 481px) {
+  .container {
+    padding: 3rem 1rem;
+  }
+
+  nav .toggle {
+    right: 2rem;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.4rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  p,
+  a {
+    font-size: 0.9rem;
+  }
+
+  .courses-section .courses .courses-card {
+    width: 100%;
+  }
+
+  .cta-section .cta-text {
+    width: 100%;
+  }
+
+  .cta-section .cta-text .times {
+    flex-flow: wrap;
+  }
+  .cta-section .cta-text .time {
+    width: 44%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cta-section .cta-login-form {
+    width: 90%;
+  }
+
+  .community-section .community-card {
+    width: 90%;
+  }
+  .communication-section .container {
+    padding: 3rem 2rem;
+  }
+  .communication-section .communication-form {
+    width: 100%;
+  }
+  .footer-section .footer-links-container {
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-section .newsletter {
+    text-align: center;
+  }
+}
