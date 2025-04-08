@@ -183,3 +183,7 @@ button .minus {
   color: orangered;
   font-size: 1.4rem;
 }
+
+p.strikethrough {
+  text-decoration: line-through;
+}
