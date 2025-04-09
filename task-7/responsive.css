@@ -1,0 +1,104 @@
+@media screen and (max-width: 481px) {
+  /* reset code */
+
+  .container {
+    padding: 0 1.7rem;
+  }
+
+  h1 {
+    font-size: 2.6rem;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+  }
+
+  h4 {
+    font-size: 1rem;
+  }
+
+  p,
+  a {
+    font-size: 1rem;
+  }
+
+  /* header  */
+  header .container .bar {
+    display: block;
+  }
+
+  header nav,
+  header .request-invite {
+    display: none;
+  }
+
+  .logo img {
+    width: 8rem;
+  }
+
+  /* hero section */
+  .hero-section {
+    background-image: url(images/bg-intro-mobile.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .hero-section .container {
+    flex-direction: column-reverse;
+    padding: 0 1.7rem;
+  }
+  .hero-section .hero-text {
+    top: 12rem;
+    padding-block: 2rem;
+  }
+
+  .hero-section .backgound img {
+    display: none;
+  }
+
+  .hero-image .mobile {
+    position: relative;
+    right: 0;
+    top: 0;
+  }
+
+  /* feature section */
+  .easybank-feature-section .container {
+    padding: 3rem 1.7rem;
+  }
+  .easybank-feature-section .container br {
+    display: none;
+  }
+
+  .easybank-carts {
+    flex-direction: column;
+    text-align: center;
+    gap: 3rem;
+  }
+
+  /* article */
+  article .container {
+    padding: 3rem 2rem;
+  }
+
+  article .container .article-carts {
+    flex-direction: column;
+  }
+
+  article .article-cart {
+    width: 100%;
+  }
+
+  /* footer */
+
+  footer .container {
+    flex-direction: column;
+    gap: 4rem;
+    padding: 3rem 5rem;
+  }
+}

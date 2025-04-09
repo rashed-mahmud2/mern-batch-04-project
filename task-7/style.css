@@ -1,0 +1,266 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  padding: 0 8rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+h3 {
+  font-size: 1.7rem;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+h4 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+p {
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.6);
+  line-height: 1.7rem;
+}
+
+a {
+  font-size: 1.2rem;
+  color: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+}
+
+.request-invite a {
+  display: inline-block;
+  padding: 1rem 2rem;
+  background-image: linear-gradient(rgb(47, 201, 47), darkblue);
+  color: #fff;
+  border-radius: 2rem;
+  transition: 0.2s;
+}
+
+.request-invite a:hover {
+  transform: scale(1.1);
+}
+
+/* header */
+
+header {
+  position: fixed;
+  z-index: 5;
+  width: 100%;
+  background-color: #fff;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 1rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header ul {
+  display: flex;
+  gap: 4rem;
+}
+
+.logo img {
+  width: 10rem;
+}
+
+header ul a {
+  position: relative;
+}
+
+header ul a:hover::after {
+  content: "";
+  height: 4px;
+  width: 100%;
+  background-color: #000;
+  position: absolute;
+  top: 2rem;
+  left: 0;
+}
+
+header .container .bar {
+  display: none;
+}
+
+/* hero section */
+
+.hero-section {
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.hero-section .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-section .hero-text {
+  flex-basis: 40%;
+  position: relative;
+  top: 15rem;
+}
+
+.hero-text p {
+  margin-block: 2rem;
+}
+.hero-section .hero-image {
+  flex-basis: 50%;
+  position: relative;
+}
+
+.hero-image .backgound {
+  position: absolute;
+  right: -30rem;
+  top: -19rem;
+}
+
+.hero-image .mobile {
+  width: 130%;
+  position: absolute;
+  z-index: 3;
+  right: -14rem;
+  top: -9rem;
+}
+
+.hero-image .mobile img {
+  width: 100%;
+}
+
+/* feature section */
+.easybank-feature-section {
+  background-color: aliceblue;
+}
+
+.easybank-feature-section .container {
+  padding: 5rem 8rem;
+}
+
+.easybank-feature-section h2 {
+  margin-bottom: 1.5rem;
+}
+
+.easybank-carts {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.easybank-carts > * {
+  flex: 1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.easybank-cart h3 {
+  margin-block: 2rem;
+}
+
+/* articles */
+
+article .container {
+  padding: 6rem 8rem;
+}
+
+article h2 {
+  margin-bottom: 4rem;
+}
+
+article .container .article-carts {
+  display: flex;
+  gap: 2rem;
+}
+
+article .article-cart {
+  width: 24%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: 0.3s ease-in-out all;
+  border-radius: 0.5rem;
+}
+
+article .article-cart:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transform: scale(1.03);
+}
+article .article-cart img {
+  width: 100%;
+  height: 12rem;
+  border-top-right-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
+}
+
+.article-cart .article-text {
+  padding: 1rem;
+}
+
+.article-cart .article-text h4 {
+  margin-block: 0.5rem;
+}
+
+.article-cart p.small {
+  font-size: 0.8rem;
+}
+
+/* footer */
+
+footer {
+  background-color: rgba(7, 7, 67, 0.944);
+}
+
+footer .container {
+  padding: 5rem 8rem;
+  color: rgba(255, 255, 255, 0.7);
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .container .group {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+footer .container .group.group-1 {
+  color: #fff;
+}
+
+footer .container .group.group-1 i {
+  margin-right: 0.5rem;
+  font-size: 1.2rem;
+}
+
+footer .container .group ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.3rem;
+}
+footer .container .group ul a {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 500;
+}
